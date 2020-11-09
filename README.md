@@ -1,3 +1,7 @@
+# Recipe website
+This is a website that displays recipes with their ingridients, calories, images and titles.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
