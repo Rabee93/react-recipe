@@ -33,6 +33,7 @@ const updateSearch = e => {
 const getSearch = e => {
   e.preventDefault();
   setQuery(search);
+  setSearch('')
 }
   return(
     <div className='App'>
@@ -48,6 +49,7 @@ const getSearch = e => {
         title= {recipe.recipe.label}
         calories={recipe.recipe.calories}
         image={recipe.recipe.image}
+        ingredients={recipe.recipe.ingredients}
 
         />
 
